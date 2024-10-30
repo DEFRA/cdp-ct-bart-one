@@ -1,8 +1,8 @@
-# CDP Node.js Frontend Template
+# cdp-ct-bart-one
 
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=DEFRA_cdp-node-frontend-template&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=DEFRA_cdp-node-frontend-template)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=DEFRA_cdp-node-frontend-template&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=DEFRA_cdp-node-frontend-template)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=DEFRA_cdp-node-frontend-template&metric=coverage)](https://sonarcloud.io/summary/new_code?id=DEFRA_cdp-node-frontend-template)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=DEFRA_cdp-ct-bart-one&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=DEFRA_cdp-ct-bart-one)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=DEFRA_cdp-ct-bart-one&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=DEFRA_cdp-ct-bart-one)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=DEFRA_cdp-ct-bart-one&metric=coverage)](https://sonarcloud.io/summary/new_code?id=DEFRA_cdp-ct-bart-one)
 
 Core delivery platform Node.js Frontend Template.
 
@@ -37,7 +37,7 @@ easier to use the Node Version Manager [nvm](https://github.com/creationix/nvm)
 To use the correct version of Node.js for this application, via nvm:
 
 ```bash
-cd cdp-node-frontend-template
+cd cdp-ct-bart-one
 nvm use
 ```
 
@@ -123,13 +123,13 @@ git config --global core.autocrlf false
 Build:
 
 ```bash
-docker build --target development --no-cache --tag cdp-node-frontend-template:development .
+docker build --target development --no-cache --tag cdp-ct-bart-one:development .
 ```
 
 Run:
 
 ```bash
-docker run -p 3000:3000 cdp-node-frontend-template:development
+docker run -p 3000:3000 cdp-ct-bart-one:development
 ```
 
 ### Production image
@@ -137,13 +137,13 @@ docker run -p 3000:3000 cdp-node-frontend-template:development
 Build:
 
 ```bash
-docker build --no-cache --tag cdp-node-frontend-template .
+docker build --no-cache --tag cdp-ct-bart-one .
 ```
 
 Run:
 
 ```bash
-docker run -p 3000:3000 cdp-node-frontend-template
+docker run -p 3000:3000 cdp-ct-bart-one
 ```
 
 ### Docker Compose
